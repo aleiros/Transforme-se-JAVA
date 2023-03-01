@@ -1,0 +1,20 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class Switch {
+	public static void main(String[] args) {
+		
+		String dia:
+			
+			System.out.println("Qual hoje é semana?");
+			
+			switch (diaDaSemana) {
+			case 1: {
+				dia = "Domingo";
+			}
+			default:
+				throw new IllegalArgumentException("Unexpected value: " + key);
+			}
+	}
+}

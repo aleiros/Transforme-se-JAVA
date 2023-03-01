@@ -1,0 +1,23 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class AtividadeAula5 {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		System.out.println("Informe o seu nome?");
+		String nome = entrada.nextLine();
+		
+		System.out.println("Informe o seu sobrenome?");
+		String sobreNome = entrada.nextLine();
+		
+		System.out.println("Informe o seu numero CPF ou CNPJ?");
+		String cpfEcnpj = entrada.nextLine();
+		
+		System.out.println(cpfEcnpj.length());
+	}
+
+}

@@ -1,0 +1,69 @@
+package introducao;
+
+import java.util.Scanner;
+
+
+public class AtividadeAula5 {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner (System.in);
+	
+		
+		System.out.println("Informe o seu nome?");
+		String Nome = entrada.next();
+		System.out.println("\n");
+		
+		
+		System.out.println("Informe o seu é CPF ou CNPJ?");
+		String Documentos = entrada.next();    
+		System.out.println("\n");
+		
+		System.out.println("Informe o horário atual");
+		int Horario = entrada.nextInt();
+		
+		if (Horario >= 0 && Horario < 6) {
+			System.out.println("Boa Madrugada!");
+		} 
+		
+		else if (Horario >= 6 && Horario < 12) {
+			System.out.println("Bom dia!");
+		} 
+		
+		else if (Horario >= 12 && Horario < 18) {
+			System.out.println("Boa tarde!");
+		} 
+		
+		else if (Horario >= 18) {
+			System.out.println("Boa noite!");
+		}
+		
+		
+			
+				
+
+		
+
+		
+		
+		
+	
+		
+				
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		entrada.close();
+	}
+}

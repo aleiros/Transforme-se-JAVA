@@ -1,0 +1,80 @@
+package introducao;
+
+import java.util.Scanner;
+
+
+public class AtividadeAula5 {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		String Nome;
+		String SobreNome;
+		String Documentos;
+		String Horario;
+		String Mes;
+		
+		int opcao = 0;
+		
+		System.out.println("Informe o seu nome?");
+		Nome = entrada.next();
+		System.out.println("\n");
+		
+		System.out.println("Informe o seu sobrenome?");
+		SobreNome = entrada.next();
+		System.out.println("\n");
+		
+		System.out.println("Informe o seu numero CPF ou CNPJ?");
+	
+		
+		Documentos = entrada.getText();
+		
+	    if (Documentos.length() == 11) {
+	        String cpf = String.valueOf(
+	        "" + Documentos.charAt(0) + Documentos.charAt(1) + Documentos.charAt(2) + "." +
+	        		Documentos.charAt(3) + Documentos.charAt(4) + Documentos.charAt(5) + "." +
+	        		Documentos.charAt(6) + Documentos.charAt(7) + "-" + Documentos.charAt(8) + "-" +
+	        		Documentos.charAt(9) + "-" + Documentos.charAt(10));
+	        entrada.setText(cpf);
+	    } 
+	    
+	    
+	    else if (Documentos.length() == 14) {
+	        
+	    	String cnpj = String.valueOf(
+	        "" + Documentos.charAt(0) + Documentos.charAt(1) + "." + 
+	        		Documentos.charAt(2) + Documentos.charAt(3) + Documentos.charAt(4) + "." +
+	        		Documentos.charAt(5) + Documentos.charAt(6) + Documentos.charAt(7) + "/" + 
+	        		Documentos.charAt(8) + Documentos.charAt(9) + Documentos.charAt(10) + Documentos.charAt(11) + "-"
+	        		Documentos.charAt(12) + Documentos.charAt(13));
+	    	Documentos.setText(cnpj);
+	    }
+	    
+		System.out.println("\n");
+		
+		System.out.println("Informe o horário atual");
+		Horario = entrada.next();
+		System.out.println("\n");
+		
+		System.out.println("Informe o número referente ao mês desejado");
+		Mes = entrada.next();
+				
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		entrada.close();
+	}
+}

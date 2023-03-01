@@ -1,0 +1,58 @@
+package introducao;
+
+import java.util.Scanner;
+import java.;
+
+
+public class AtividadeAula5 {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		String Nome;
+		String SobreNome;
+		String Documentos;
+		String Horario;
+		String Mes;
+		
+		int opcao = 0;
+		
+		System.out.println("Informe o seu nome?");
+		Nome = entrada.next();
+		System.out.println("\n");
+		
+		System.out.println("Informe o seu sobrenome?");
+		SobreNome = entrada.next();
+		System.out.println("\n");
+		
+		System.out.println("Informe o seu numero CPF ou CNPJ?");
+		Documentos = entrada.next();    
+		System.out.println("\n");
+		
+		System.out.println("Informe o horário atual");
+		Horario = entrada.next();
+		System.out.println("\n");
+		
+		System.out.println("Informe o número referente ao mês desejado");
+		Mes = entrada.next();
+		
+		
+				
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

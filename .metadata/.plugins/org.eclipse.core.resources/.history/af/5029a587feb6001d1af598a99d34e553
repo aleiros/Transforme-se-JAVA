@@ -1,0 +1,26 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class AtividadeAula4B {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Informe o valor do boleto: ");
+		double valorBoleto = entrada.nextDouble();
+		System.out.println("\n");
+		
+		System.out.println("Informe o dia do vencimento: ");
+		int diaVencimento = entrada.nextInt();
+		
+		System.out.println("Informe a data de pagamento: ");
+		int diaPagamento = entrada.nextInt();
+		
+		
+		
+		entrada.close();
+	}
+
+}

@@ -1,0 +1,27 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class Switch {
+	public static void main(String[] args) {
+		System.out.println("numero");
+		Scanner 
+		String campo = seucampo.getText();
+		    if (campo.length() == 11) {
+		        String cpf = String.valueOf(
+		        "" + campo.charAt(0) + campo.charAt(1) + campo.charAt(2) + "." +
+		        campo.charAt(3) + campo.charAt(4) + campo.charAt(5) + "." +
+		        campo.charAt(6) + campo.charAt(7) + "-" + campo.charAt(8) + "-" +
+		        campo.charAt(9) + "-" + campo.charAt(10));
+		        seucampo.setText(cpf);
+		    } else if (campo.length() == 14) {
+		        String cnpj = String.valueOf(
+		        "" + campo.charAt(0) + campo.charAt(1) + "." + 
+		        campo.charAt(2) + campo.charAt(3) + campo.charAt(4) + "." +
+		        campo.charAt(5) + campo.charAt(6) + campo.charAt(7) + "/" + 
+		        campo.charAt(8) + campo.charAt(9) + campo.charAt(10) + campo.charAt(11) + "-"
+		        campo.charAt(12) + campo.charAt(13));
+		        seucampo.setText(cnpj);
+		    }
+	}
+}

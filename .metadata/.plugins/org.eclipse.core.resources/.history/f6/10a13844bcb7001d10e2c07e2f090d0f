@@ -1,0 +1,35 @@
+package introducao;
+
+import java.text.ParseException;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import java.util.Scanner;
+
+
+public class AtividadeAula5 {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		String Cliente;
+		String Documentos;
+		String Horario;
+		
+		int opcao = 0;
+		
+		System.out.println("Informe o seu nome?");
+		Cliente = entrada.nextLine();
+		System.out.println("\n");
+		
+		System.out.println("Informe o seu numero CPF ou CNPJ?");
+		Documentos = entrada.nextLine();
+		
+		
+		System.out.println("Informe o horário atual");
+		Horario = entrada.nextLine();
+		
+		
+	}
+
+}

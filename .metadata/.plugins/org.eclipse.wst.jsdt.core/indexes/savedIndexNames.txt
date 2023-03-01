@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/alexandermedeiros/Desktop/java-serasa/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1755923178.index
+141361845.index
+3803106728.index
+1171492625.index
+4154577111.index
+3194995960.index

@@ -1,0 +1,77 @@
+package introducao;
+
+import java.text.SimpleDateFormat;
+import java.util.Scanner;
+
+
+public class AtividadeAula5 {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		String Nome;
+		String SobreNome;
+		String Documentos;
+		int Horario;
+		
+		int opcao = 0;
+		
+		System.out.println("Informe o seu nome?");
+		Nome = entrada.next();
+		System.out.println("\n");
+		
+		
+		System.out.println("Informe o seu numero CPF ou CNPJ?");
+		Documentos = entrada.next();    
+		System.out.println("\n");
+		
+		System.out.println("Informe o horário atual");
+		Horario = entrada.nextInt();
+		System.out.println("\n");
+		
+	
+		if (06 == 12) {
+			switch (Horario) {
+			case 01:
+				System.out.println("Bom dia, " + Nome + " é uma " + Documentos);
+			} 
+		}
+			else if (13 == 18) {
+				switch (Horario) {
+				case 02:
+					System.out.println("Boa tarde, " + Nome + " é uma " + Documentos);
+				} 
+			} 
+			
+			else if (18 == 23) {
+				
+			} 
+			
+				
+
+		
+
+		
+		
+		
+	
+		
+				
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

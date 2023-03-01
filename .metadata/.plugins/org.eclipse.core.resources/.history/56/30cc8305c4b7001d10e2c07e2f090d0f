@@ -1,0 +1,98 @@
+package introducao;
+
+import java.util.Scanner;
+
+
+public class AtividadeAula5 {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		String Nome;
+		String SobreNome;
+		String Documentos;
+		String Horario;
+		String Mes;
+		
+		int opcao = 0;
+		
+		System.out.println("Informe o seu nome?");
+		Nome = entrada.next();
+		System.out.println("\n");
+		
+		System.out.println("Informe o seu sobrenome?");
+		SobreNome = entrada.next();
+		System.out.println("\n");
+		
+		System.out.println("Informe o seu numero CPF ou CNPJ?");
+		Documentos = entrada.next();    
+		System.out.println("\n");
+		
+		System.out.println("Informe o horário atual");
+		Horario = entrada.next();
+		System.out.println("\n");
+		
+		System.out.println("Informe o número referente ao mês desejado");
+		Mes = entrada.next();
+		
+		switch (Mes) {
+	     case 1:
+	       System.out.println("O mês é Janeiro!");
+	       break;
+	     case 2:
+	       System.out.println("O mês é Fevereiro!");
+	       break;
+	     case 3:
+	       System.out.println("O mês é Março!");
+	       break;
+	     case 4:
+	       System.out.println("O mês é Abril!");
+	       break;
+	     case 5:
+	       System.out.println("O mês é Maio!");
+	       break;
+	     case 6:
+	       System.out.println("O mês é Junho!");
+	       break;
+	     case 7:
+	       System.out.println("O mês é Julho!");
+	       break;
+	     case 8:
+	       System.out.println("O mês é Agosto!");
+	       break;
+	     case 9:
+	       System.out.println("O mês é Setembro!");
+	       break;
+	     case 10:
+	       System.out.println("O mês é Outubro!");
+	       break;
+	     case 11:
+	       System.out.println("O mês é Novembro!");
+	       break;
+	     case 12:
+	       System.out.println("O mês é Dezembro!");
+	       break;
+	     default:
+	       System.out.println("Não existe um mês correspondente ao número escolhido! Digite um número entre 1 a 12.");
+	    }
+		
+		
+				
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
