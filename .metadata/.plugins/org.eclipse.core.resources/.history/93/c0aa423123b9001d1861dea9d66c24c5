@@ -1,0 +1,22 @@
+package introducao;
+
+public class While {
+	
+	public static void main(String[] args) {
+		
+		int copos = 0;
+		
+		
+		// contuino....
+		while (copos <= 30) {
+			
+			System.out.println("Copo de numero " + copos + " foi lavado.");
+			
+			//copos += 1;
+			copos ++;
+			
+		}
+		
+	}
+
+}

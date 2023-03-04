@@ -1,0 +1,29 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class PrimeiroClasse {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.printf("Preço de Conta?");
+		int conta = entrada.nextInt();
+		
+		System.out.printf("Dia da vencer na conta?");
+		int vencer = entrada.nextInt();
+		
+		System.out.printf("Dia atual?");
+		int atual = entrada.nextInt();
+		
+		int datas = vencer - atual;
+		int atraso = 1%30;
+		float juros = (datas * atraso)* conta;
+		
+		System.out.printf("%f é o valor dos juros por atraso.", juros);
+		
+		
+		
+	}
+}

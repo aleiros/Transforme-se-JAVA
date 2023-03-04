@@ -1,0 +1,23 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class PrimeiroClasse {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Preço de Conta?");
+		String conta = entrada.nextLine();
+		
+		System.out.println("Dia da vencer na conta?");
+		String vencer = entrada.nextLine();
+		
+		System.out.println("Dia atual?");
+		String atual = entrada.nextLine();
+		
+		float datas = 30 - atual;
+		float atraso =  
+	}
+}

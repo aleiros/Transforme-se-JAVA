@@ -1,0 +1,49 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class While {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+//		
+//		int copos = 0;
+//		
+//		// contuino....
+//		while (copos <= 30) {
+//			
+//			System.out.println("Copo de numero " + copos + " foi lavado.");
+//			
+//			//copos += 1; ou
+//			//copos ++;
+//			
+//		}
+//		int pratos = 0;
+//		
+//		//palavra para
+//		// numero 0;
+		
+		int hora = 0;
+		
+		while ( hora >= 9 && hora <= 12 ) {
+			
+			int copos += 1;
+			
+			System.out.println("Que horas são:");
+			hora = entrada.nextInt();
+			
+			
+		}
+		
+		System.out.println("A quantidade de copos lavados foi de " + copos);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

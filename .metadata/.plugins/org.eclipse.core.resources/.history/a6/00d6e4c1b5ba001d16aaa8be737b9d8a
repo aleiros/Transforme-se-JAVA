@@ -1,0 +1,83 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class AtividadeAula6B {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		String Cliente;
+		String Documentos;
+		int digitarProximo;
+		String Numero;
+		
+		System.out.println("Olá, Eu sou Alexander, Assistene Virtual Sicoob Central e estou aqui para ajudar. \nPara começarmos, imforme seu nome: ");
+		Cliente = entrada.next();
+		
+		
+		System.out.println("Por favor, informe o seu numero CNPJ ou CPF para consulta: ");
+		Numero = entrada.next();
+		
+		do {
+			
+			switch (Numero) {
+			case 01: {
+				System.out.println("Por favor, informe o seu numero CNPJ ou CPF para consulta: ");
+				Documentos = entrada.next();
+				
+				if (Documentos.length() == 18) {
+					//System.out.println("é uma CNPJ");			
+				} else if (Documentos.length() == 14) {
+					//System.out.println("é uma CPF");
+				} else { 
+					System.out.println("Esta não é um numero válido!");
+				};
+				break;
+			}
+
+		
+			
+			
+			
+			
+			System.out.println("Deseja digitar outro numero \n1-Sim 2-Não: ");
+			digitarProximo = entrada.nextInt();
+			
+			
+			
+			default:
+			throw new IllegalArgumentException("Unexpected value: " + Numero);
+			}
+			
+		} while (digitarProximo !=2);
+		
+		System.out.printf("A Soma dos numeros digitados foi de;");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		entrada.close();
+	}
+
+}

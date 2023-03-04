@@ -1,0 +1,37 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class AtividadeAula6 {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		
+		int somaNumeros = 0;
+		
+		while (somaNumeros < 100) {
+			System.out.println("Digite um numero: ");
+			int numero = entrada.nextInt();
+			
+			somaNumeros += numero;
+		}
+		
+		System.out.printf("Soma dos numeros é: %d%n", somaNumeros);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		entrada.close();
+	}
+	
+}

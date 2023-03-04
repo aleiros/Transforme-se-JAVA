@@ -1,0 +1,38 @@
+package introducao;
+
+import java.util.Scanner;
+
+public class Lenght {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		String nome = "Alexander";
+		String Pessoa;
+
+		
+		
+		
+		System.out.println("Informe o numero seu CPF ou CNPJ:");
+		Pessoa = entrada.nextLine();
+		
+		System.out.println("O meu nome tem " + nome.length() + " letras.");
+		
+		if (Pessoa.length() == 14) {
+			
+			System.err.println("O seu CPF é válido");
+			
+		} else if (Pessoa.length() == 18) {
+			
+			System.out.println("O seu CNPJ é válido");
+			
+		} else {
+			
+			System.out.println("Esta não é um numero válido!");
+		}
+		
+		
+	}
+
+}

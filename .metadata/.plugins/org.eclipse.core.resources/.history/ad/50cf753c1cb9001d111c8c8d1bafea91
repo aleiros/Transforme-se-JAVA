@@ -1,0 +1,13 @@
+package introducao;
+
+public class Lenght {
+	
+	public static void main(String[] args) {
+		
+		String nome = Alexander;
+		
+		System.out.println("O meu nome tem " + nome.length() + " letras.");
+		
+	}
+
+}
